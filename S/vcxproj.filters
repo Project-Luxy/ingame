@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Sodium">
+      <UniqueIdentifier>{b418db55-342e-4d21-99b4-21b35c32a703}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UnrealEngine">
+      <UniqueIdentifier>{023d148e-592a-4a8a-81e1-f47d9ac071a9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Util.hpp">
+      <Filter>Sodium</Filter>
+    </ClInclude>
+    <ClInclude Include="Structs.hpp">
+      <Filter>UnrealEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="Unreal.hpp">
+      <Filter>UnrealEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="Hooks.hpp">
+      <Filter>Sodium</Filter>
+    </ClInclude>
+    <ClInclude Include="Offsets.hpp">
+      <Filter>Sodium</Filter>
+    </ClInclude>
+    <ClInclude Include="Globals.hpp">
+      <Filter>Sodium</Filter>
+    </ClInclude>
+    <ClInclude Include="Functions.hpp">
+      <Filter>UnrealEngine</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Sodium</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
